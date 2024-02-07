@@ -1,0 +1,19 @@
+.side-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  position: fixed;
+  background-color: gray;
+  border-radius: 5%;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 30px;
+  top: 150px;
+  right: 0;
+}
+
+.side-menu .side-menu-icon{
+  color: white;
+  font-size: 16px;
+}
