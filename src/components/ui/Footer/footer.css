@@ -1,0 +1,28 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer .footer-text{
+  font-size: 14px;
+  font-weight: bold; 
+  color: black;
+  width: 200px; 
+  text-align: start;
+}
+
+.footer-logo{
+  object-fit: fill; 
+  height: 120px; 
+  width: 200px;
+}
+
+.footer-copyright{
+  font-weight: bold; 
+  width: 200px; 
+  text-align: center;
+}
+

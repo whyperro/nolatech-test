@@ -1,0 +1,32 @@
+.gallery-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color: green;
+}
+
+.gallery-title{
+    font-size: 56px; color: white
+}
+
+.gallery-btn{
+    padding: 16px;
+    border: none;
+    color: black; 
+    background-color: white; 
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+}
+
+.gallery-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #03b044;
+    transition: all .3s ease-in-out;
+}

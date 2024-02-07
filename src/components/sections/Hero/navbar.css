@@ -1,0 +1,15 @@
+.routeNav{
+  display: flex;
+  height: 120px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.routeNav>.route{
+  margin-left:16px;
+  color: var( --text-color-back);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none !important;
+}

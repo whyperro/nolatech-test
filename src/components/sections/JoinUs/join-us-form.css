@@ -1,0 +1,57 @@
+.join-us-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5%;
+}
+
+.form-title{
+  font-size: 56px; 
+  font-weight: bold; 
+  color: white; 
+  margin: 2%
+}
+
+.form-subtitle{
+  font-size: 16px; 
+  font-weight: bold; 
+  color: white; 
+  margin: 2%
+}
+
+.form-content{ 
+  display: flex;
+}
+
+.inputForm{
+    border: none;
+    border-radius: 10px;
+    margin: 2%;
+    height: 45px;
+    padding-left: 16px;
+}
+
+.form-btn{
+    cursor: pointer;
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: #03b044;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+    margin: 10px
+}
+
+.form-btn:hover{
+  background-color: #029138;
+  transition: all .3s ease-in-out;
+}
+
+.form-text{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}

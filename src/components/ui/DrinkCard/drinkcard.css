@@ -1,0 +1,21 @@
+.drink-card{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 600px;
+}
+
+.card-btn{
+    background-color: #03b044;
+    color: white;
+    font-size: 26px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    text-align: center;
+}

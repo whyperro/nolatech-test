@@ -1,0 +1,24 @@
+.carousel-image{
+  object-fit: cover; 
+  width: 400px; 
+  height: 400px
+}
+
+.carousel-images{
+  display: flex; 
+  gap: 5%
+}
+
+.carousel-controls{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: center;
+  gap: 2%;
+}
+
+.active{
+  color: white;
+}

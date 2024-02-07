@@ -1,0 +1,21 @@
+.video-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-icon {
+  font-size: 35px;
+  position: absolute; 
+  color: white
+}
+
+.video-img {
+  object-fit: cover; 
+  max-width: 250px
+}
+
+.video-title{
+  margin-top: 5%;
+}

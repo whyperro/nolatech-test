@@ -1,0 +1,25 @@
+.latest-section section{ 
+  margin-top: 0;
+}
+
+.latest-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15%
+}
+
+.latest-title{
+  font-size: 48px; 
+  font-weight: bold;
+}

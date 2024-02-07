@@ -1,0 +1,51 @@
+.hero-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    height: 75px;
+    background-color: green;
+}
+
+.hero-footer .footer-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: var( --text-color-back);
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.footer-time {
+  padding-left: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.time-box{ 
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-box>span{
+  font-size: 26px;
+}
+
+.time-subtitle {
+  color: #3FFA53 !important;
+}
+
+.time-title{
+  color: white;
+}
+
+.divider {
+    height: 45px;
+    border-top: 3px solid #bbb;
+}
