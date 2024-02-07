@@ -14,17 +14,25 @@ export const Carousel = () => {
     [Pic7, Pic8, Pic4],
   ];
 
+  /*
+
+  //Controles en caso de querer slider con "Siguiente y Anterior", se mantienen los 3 punticos.
+
   const nextSet = () => {
     setCurrentSetIndex(
       currentSetIndex === imageSets.length - 1 ? 0 : currentSetIndex + 1
     );
   };
 
+
   const prevSet = () => {
     setCurrentSetIndex(
       currentSetIndex === 0 ? imageSets.length - 1 : currentSetIndex - 1
     );
   };
+
+
+  */
 
   const renderImages = () => {
     return imageSets[currentSetIndex].map((image, index) => (
