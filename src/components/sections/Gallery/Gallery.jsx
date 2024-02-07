@@ -2,7 +2,7 @@ import React from "react";
 import "./gallery.css";
 import { Carousel } from "./Carousel";
 
-export const Gallery = () => {
+const Gallery = () => {
   return (
     <section className="gallery-section">
       <h1 className="gallery-title">Lorem Ipsum</h1>
@@ -11,3 +11,5 @@ export const Gallery = () => {
     </section>
   );
 };
+
+export default Gallery;

@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Pic1 from "../../../assets/Pic1.png";
-import Pic2 from "../../../assets/Pic2.png";
-import Pic3 from "../../../assets/Pic3.png";
+import Pic10 from "../../../assets/Pic10.png";
 import Pic4 from "../../../assets/Pic4.png";
 import Pic7 from "../../../assets/Pic7.png";
 import Pic8 from "../../../assets/Pic8.png";
-import Pic10 from "../../../assets/Pic10.png";
 import "./carousel.css";
 
 export const Carousel = () => {
